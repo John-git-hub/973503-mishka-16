@@ -13,10 +13,8 @@ body {
   font-weight: bold;
   line-height: 20px;
   text-align: center;
-  color: #444444;
-  width: 259px;
-  height: 52px;
-  border: solid 2px #444444;
+  color: #000000;
+  border: solid 2px #000000;
   background-color: #ffffff; }
 
 .page-header {
@@ -27,11 +25,9 @@ body {
 .main-nav {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   font-weight: bold;
   line-height: 24px;
-  text-align: left;
   color: #000000; }
 
 .site-list {
@@ -43,20 +39,20 @@ body {
   color: #000000; }
 
 .site-list__item {
+  margin: 0;
+  padding: 0;
   color: #000000;
-  border-bottom: 1px solid #ececec;
-  margin: 0; }
+  border-bottom: 1px solid #ececec; }
 
 .promo__title {
   margin: 0;
   padding: 0;
-  height: 177px;
   font-size: 27px;
   font-weight: bold;
   line-height: 30px;
   text-align: center;
   vertical-align: middle;
-  color: #010000;
+  color: #000000;
   background-color: #ececec; }
 
 .promo--toys {
@@ -68,7 +64,6 @@ body {
   font-size: 19px;
   font-weight: bold;
   line-height: 24px;
-  text-align: left;
   color: #ffffff; }
 
 .promo__button--style-1 {
@@ -83,7 +78,6 @@ body {
   font-size: 25px;
   font-weight: bold;
   line-height: 30px;
-  text-align: left;
   color: #000000; }
 
 .hit-sale__subtitle {
@@ -92,7 +86,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   line-height: 20px;
-  text-align: left;
   color: #63d1bb; }
 
 .hit-sale__text {
@@ -100,7 +93,6 @@ body {
   padding: 0;
   font-size: 15px;
   line-height: 24px;
-  text-align: left;
   color: #444444; }
 
 .hit-sale__description {
@@ -108,8 +100,6 @@ body {
   padding: 0;
   font-size: 15px;
   line-height: 20px;
-  letter-spacing: normal;
-  text-align: left;
   color: #444444; }
 
 .hit-sale__parameter {
@@ -127,7 +117,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   line-height: 24px;
-  text-align: center;
   color: #444444; }
 
 .hit-sale__button {
@@ -139,8 +128,6 @@ body {
   font-size: 25px;
   font-weight: bold;
   line-height: 30px;
-  letter-spacing: normal;
-  text-align: left;
   color: #000000; }
 
 .info__list {
@@ -152,8 +139,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   line-height: 20px;
-  letter-spacing: normal;
-  text-align: left;
   color: #000000; }
 
 .reviews__title {
@@ -162,8 +147,6 @@ body {
   font-size: 25px;
   font-weight: bold;
   line-height: 30px;
-  letter-spacing: normal;
-  text-align: left;
   color: #000000; }
 
 .reviews__text {
@@ -171,7 +154,6 @@ body {
   padding: 0;
   font-size: 15px;
   line-height: 30px;
-  text-align: left;
   color: #444444; }
 
 .reviews__name {
@@ -191,8 +173,9 @@ body {
   color: #444444; }
 
 .slider__button {
-  width: 130px;
-  height: 52px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
   border: solid 1px #ececec;
   background-color: #ffffff; }
 
@@ -202,17 +185,13 @@ body {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  letter-spacing: normal;
-  text-align: left;
   color: #000000; }
 
 .contacts__list {
   margin: 0;
   padding: 0;
   font-size: 15px;
-  font-weight: normal;
   line-height: 30px;
-  text-align: left;
   color: #444444; }
 
 .contacts__parameter {
@@ -222,9 +201,13 @@ body {
   background-color: #ececec; }
 
 .social {
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
 .social__link {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   color: #ffffff; }
 
@@ -232,7 +215,6 @@ body {
   font-size: 19px;
   font-weight: bold;
   line-height: 18px;
-  text-align: left;
   color: #000000; }
 
 .goods__list {
@@ -244,8 +226,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   line-height: 24px;
-  letter-spacing: normal;
-  text-align: left;
   color: #000000; }
 
 .goods__text {
@@ -253,7 +233,6 @@ body {
   padding: 0;
   font-size: 13px;
   line-height: 30px;
-  text-align: left;
   color: #444444; }
 
 .goods__price {
@@ -262,8 +241,6 @@ body {
   font-size: 15px;
   font-weight: bold;
   line-height: 24px;
-  letter-spacing: normal;
-  text-align: left;
   color: #000000;
   border-top: 1px solid #ececec; }
 
@@ -279,7 +256,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   line-height: 24px;
-  text-align: left;
   color: #000000; }
 
 .producing__text {
@@ -287,13 +263,11 @@ body {
   padding: 0;
   font-size: 13px;
   line-height: 24px;
-  text-align: left;
   color: #444444; }
 
 .page-main__text {
   font-size: 13px;
   line-height: 24px;
-  text-align: left;
   color: #444444; }
 
 .order-form__title {
@@ -302,7 +276,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   line-height: 16px;
-  text-align: left;
   color: #63d1bb; }
 
 .order-form__text {
@@ -311,19 +284,17 @@ body {
   font-size: 17px;
   font-weight: bold;
   line-height: 18px;
-  text-align: left;
   color: #000000; }
 
 .order-form__input {
   font-size: 17px;
   line-height: 18px;
-  text-align: left;
   color: rgba(68, 68, 68, 0.3); }
 
 .order-form__text--necessary {
   font-size: 14px;
   line-height: 16px;
-  text-align: left;
+  font-weight: normal;
   color: #444444; }
 
 /*# sourceMappingURL=style.css.map */
